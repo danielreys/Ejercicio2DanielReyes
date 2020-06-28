@@ -1,0 +1,24 @@
+.highlighted{ 
+    padding: 1px 1px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20%;
+    animation-name: stretch;
+    animation-duration: 2s; 
+    background-position: 100%;
+    background-image:linear-gradient(to right, transparent , #ec6c0a);
+    background-size: 200%;
+}
+
+
+@keyframes stretch {
+    0% {
+        background-position:-33%;
+    }
+    50% {
+        background-position:-66%;
+    }
+    100% {
+        background-position:-100%;
+    }
+  }
